@@ -1,6 +1,13 @@
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-numerical-013243?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-plots-orange)
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+
 # 1D Rocket Flight Simulator
 
 A physics-based rocket simulation written in Python that models vertical flight using Euler integration. Built as part of my Mechanical Engineering coursework at UCF to apply real propulsion and aerodynamics concepts in code.
+
+![Simulation Output](simulation_preview.png)
 
 ## What It Does
 
@@ -80,7 +87,8 @@ pip install numpy matplotlib
 
 ```
 1d-rocket-simulation/
-└── 1D_Constant_Rocket.py   # Main simulation script
+├── 1D_Constant_Rocket.py      # Main simulation script
+└── simulation_preview.png     # Sample output plots
 ```
 
 ## Background
